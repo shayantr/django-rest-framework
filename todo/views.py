@@ -136,3 +136,5 @@ class UserViewsetApi(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
+
+
